@@ -1,0 +1,33 @@
+open the toc file
+create the doc and doc/nested folders
+loop
+  read a line from toc
+  parse into title and filename
+  remove leading # from title name to create newtitle
+  remove # and add .md to filename to create newfilename
+  if level 1:
+    open book as book
+    open output doc/newfilename as outfile
+    read book until "## title"
+    if eof:
+      print nastygram and exit
+      write newtitle to outfile
+      loop
+        read book
+        if level 1 or eof
+          close book
+        write to outfile
+      end loop
+  if level 2:
+    open book as book
+    open output doc/nested/newfilename as outfile
+    loop
+      read book
+      if level 1 or level 2 or eof
+        close book
+      writre to outfile
+    end loop
+end loop
+close toc filename
+
+
