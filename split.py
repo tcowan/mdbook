@@ -46,8 +46,8 @@ try:
 except:
     print('Error opening user-guide.md')
 
-# create the doc and doc/nested folders
-nested_path = "doc/nested"
+# create the src and src/nested folders
+nested_path = "src/nested"
 os.makedirs(nested_path, exist_ok=True)
 
 # open the summary file and write the header
@@ -80,7 +80,7 @@ while guideline[0:18] != '## Getting Started':
         print('found a match at level 1')
         summary.write(f'''- [{title}]({filename})\n''')
 # open the .md file and create an empty file
-        file = open(os.path.join('doc', filename),'w')
+        file = open(os.path.join('src', filename),'w')
         fragment = findSection(guidelines, f'## {title}\n')
         if fragment is None:
             print(f'cannot find ## {title}. {filename} will be empty')
@@ -96,9 +96,9 @@ while guideline[0:18] != '## Getting Started':
         title = match2.group(1)
         filename = match2.group(2)+'.md'
         print('found a match at level 2')
-        summary.write(f'''- [{title}]('doc/nested/{filename})\n''')
+        summary.write(f'''- [{title}]('src/nested/{filename})\n''')
         # open the .md file and create an empty file
-        file = open(os.path.join('doc/nested', filename),'w')
+        file = open(os.path.join('src/nested', filename),'w')
         fragment = findSection(guidelines, f'### {title}\n')
         if fragment is None:
             print(f'cannot find ### {title}. {filename} will be empty')
