@@ -1,0 +1,1 @@
+# SmartSDR Panadapter Spots
