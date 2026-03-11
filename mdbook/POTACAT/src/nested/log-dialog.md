@@ -1,3 +1,4 @@
+# Log Dialog
 
 Click the **Log** button on any spot row, map popup, or use **Ctrl+L** for an unspotted QSO. The dialog pre-fills:
 

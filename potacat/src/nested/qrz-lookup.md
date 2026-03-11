@@ -1,3 +1,4 @@
+# QRZ Lookup
 
 If you enter your QRZ credentials in Settings → Station, POTACAT enriches spots with operator names, grid squares, state, county, and country from QRZ.
 

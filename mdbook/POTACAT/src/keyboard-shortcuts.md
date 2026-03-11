@@ -1,3 +1,4 @@
+# Keyboard Shortcuts
 
 Press **F1** to see this list in the app.
 

@@ -1,3 +1,4 @@
+# Pop-out QSO Logbook
 
 Press **F2** or click the **Logbook** button in the toolbar to open a detachable logbook window showing all your logged QSOs.
 

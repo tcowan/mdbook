@@ -1,3 +1,4 @@
+# Other Rig (Hamlib)
 
 **Best for:** Icom, Yaesu, and radios that don't speak Kenwood protocol.
 

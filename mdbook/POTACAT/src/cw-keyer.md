@@ -1,3 +1,4 @@
+# CW Keyer
 
 POTACAT includes a built-in CW keyer for FlexRadio users with a MIDI paddle (e.g. HaliKey).
 

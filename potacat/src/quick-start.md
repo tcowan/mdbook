@@ -1,3 +1,4 @@
+# Quick Start
 
 1. Set your **grid square** in the welcome screen or Settings
 2. **Add your radio** — pick a connection type, configure it, and click Test Connection

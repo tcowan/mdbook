@@ -36,10 +36,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-97d1e145.js";
+            window.path_to_searchindex_js = "searchindex-6b4afd0e.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-4e6f5083.js"></script>
+        <script src="toc-52cfc45b.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -179,42 +179,15 @@
 <p>If you are unfamilar with POTACAT, your life as you know it will change after you
 use it.</p>
 <p>The text of the remainder of this document was provide by Casey, K3SBP.</p>
+<p><img src="images/casey_headshot_bw_small.jpg" alt="Casey, K3SBP"></p>
 <p>The toolchain used to create the website is MdBook.  The first attempt attempt
 at a web-based user guide was done with Asciidoctor and Antora.  It was doable
 but difficult.  MdBook seemed to be much easier to use.</p>
-<p>MDbook was created by the developers of the Rust programming language.  Antora
+<p>MdBook was created by the developers of the Rust programming language.  Antora
 was created by the developer team behind Asciidoctor.  Antora is designed for companies with
 multiple products to document and it seemed to be too much for this project.  We will see.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="getting-started"><a href="#getting-started" class="header">Getting Started</a></h1>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="installation"><a href="#installation" class="header">Installation</a></h1>
-<ol>
-<li>Download the latest installer from the <a href="https://github.com/Waffleslop/POTACAT/releases">GitHub Releases</a> page</li>
-<li>Run the installer (<code>.exe</code> for Windows, <code>.dmg</code> for macOS)</li>
-<li><strong>Windows SmartScreen:</strong> Since POTACAT is not code-signed by Microsoft, Windows may show a SmartScreen warning. Click <strong>“More info”</strong> then <strong>“Run anyway”</strong> to proceed</li>
-<li>A portable version (no install) is also available on the Releases page — it uses the same settings location as the installer version</li>
-</ol>
-<blockquote>
-<p><strong>Tip:</strong> If “More info” doesn’t appear, right-click the downloaded file → Properties → check “Unblock” → OK, then try again.</p>
-</blockquote>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="first-launch"><a href="#first-launch" class="header">First Launch</a></h1>
-<p>On first launch, POTACAT shows a <strong>Welcome Screen</strong> to get you up and running:</p>
-<ol>
-<li><strong>Callsign</strong> — Enter your callsign (required for DX Cluster login and QSO logging)</li>
-<li><strong>QTH Grid Square</strong> — Your Maidenhead grid locator (e.g. <code>FN20jb</code>). Used for distance and heading calculations</li>
-<li><strong>Distance Unit</strong> — Miles or kilometers</li>
-<li><strong>License Class</strong> — Your license privileges (used for the “hide out-of-privilege” filter)</li>
-<li><strong>Spot Sources</strong> — Toggle which sources to show (POTA, SOTA, WWFF, LLOTA)</li>
-<li><strong>App Mode</strong> — Hunter (spot chaser) or Activator (park activator)</li>
-<li><strong>Import Data</strong> — Optionally import your QSO history (ADIF or Log4OM SQLite) and POTA Parks Worked CSV</li>
-<li><strong>Add Your Radio</strong> — Configure your rig connection right from the welcome screen</li>
-<li><strong>Theme</strong> — Dark or light mode</li>
-</ol>
-<p>Click <strong>Get Started</strong> when you’re done. You can return to this screen anytime with <strong>F11</strong>.</p>
-<hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="quick-start"><a href="#quick-start" class="header">Quick Start</a></h1>
+<h1 id="quick-start"><a class="header" href="#quick-start">Quick Start</a></h1>
 <ol>
 <li>Set your <strong>grid square</strong> in the welcome screen or Settings</li>
 <li><strong>Add your radio</strong> — pick a connection type, configure it, and click Test Connection</li>
@@ -224,10 +197,10 @@ multiple products to document and it seemed to be too much for this project.  We
 </ol>
 <p>That’s it — you’re hunting parks.</p>
 <hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="hunter-mode"><a href="#hunter-mode" class="header">Hunter Mode</a></h1>
+<h1 id="hunter-mode"><a class="header" href="#hunter-mode">Hunter Mode</a></h1>
 <p>Hunter mode is the default view. It shows live spots from all your enabled sources in a sortable table and/or interactive map.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="spot-table"><a href="#spot-table" class="header">Spot Table</a></h1>
+<h1 id="spot-table"><a class="header" href="#spot-table">Spot Table</a></h1>
 <p>The main table shows one row per spot with these columns (right-click any column header to show/hide columns):</p>
 <div class="table-wrapper">
 <table>
@@ -259,7 +232,7 @@ multiple products to document and it seemed to be too much for this project.  We
 <p><strong>Watchlist stars</strong> — Spots matching your watchlist callsigns show a star icon.</p>
 <p><strong>WSJT-X decodes</strong> — When WSJT-X integration is active, a decode indicator appears on rows where POTACAT hears the activator in WSJT-X.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="map-view"><a href="#map-view" class="header">Map View</a></h1>
+<h1 id="map-view"><a class="header" href="#map-view">Map View</a></h1>
 <p>Toggle between Table and Map using the view buttons in the toolbar (or press <strong>S</strong> for split view).</p>
 <p>The map uses dark OpenStreetMap tiles and shows:</p>
 <ul>
@@ -272,10 +245,10 @@ multiple products to document and it seemed to be too much for this project.  We
 </ul>
 <p>Click any marker to see spot details in a popup. Click the frequency in the popup to tune. The map remembers your zoom level and center position.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="split-view"><a href="#split-view" class="header">Split View</a></h1>
+<h1 id="split-view"><a class="header" href="#split-view">Split View</a></h1>
 <p>Press <strong>S</strong> or enable <strong>Split view</strong> in Settings → Display to show the table and map side-by-side (or stacked — configurable). A draggable splitter lets you resize the panes. The split height/width is saved.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="pop-out-windows"><a href="#pop-out-windows" class="header">Pop-out Windows</a></h1>
+<h1 id="pop-out-windows"><a class="header" href="#pop-out-windows">Pop-out Windows</a></h1>
 <p>POTACAT supports detachable pop-out windows:</p>
 <ul>
 <li><strong>Pop-out Map</strong> — Click the ↗ button in the view toolbar. Opens the map in its own resizable window with full functionality (markers, popups, tune arcs, Log button). Remembers position and size.</li>
@@ -284,11 +257,11 @@ multiple products to document and it seemed to be too much for this project.  We
 </ul>
 <p>Pop-out windows sync theme (dark/light) with the main window and auto-reopen if they were open when you last closed POTACAT.</p>
 <hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="activator-mode"><a href="#activator-mode" class="header">Activator Mode</a></h1>
+<h1 id="activator-mode"><a class="header" href="#activator-mode">Activator Mode</a></h1>
 <p>Switch to Activator mode from the Settings quick dropdown in the toolbar, or in Settings → App Mode.</p>
 <p>Activator mode replaces the hunter table with a streamlined interface for running a POTA/SOTA/WWFF activation.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="starting-an-activation"><a href="#starting-an-activation" class="header">Starting an Activation</a></h1>
+<h1 id="starting-an-activation"><a class="header" href="#starting-an-activation">Starting an Activation</a></h1>
 <ol>
 <li><strong>Enter your park reference</strong> (e.g. <code>K-1234</code>) in the park input field — autocomplete helps you find parks</li>
 <li><strong>Set your frequency</strong> — type it or let POTACAT read it from your radio via CAT</li>
@@ -297,7 +270,7 @@ multiple products to document and it seemed to be too much for this project.  We
 </ol>
 <p>A timer starts counting your activation time. Your contact count is displayed prominently.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="logging-contacts"><a href="#logging-contacts" class="header">Logging Contacts</a></h1>
+<h1 id="logging-contacts"><a class="header" href="#logging-contacts">Logging Contacts</a></h1>
 <p>The quick-log form at the top has:</p>
 <ul>
 <li><strong>Callsign</strong> — type the hunter’s callsign</li>
@@ -308,10 +281,10 @@ multiple products to document and it seemed to be too much for this project.  We
 <p>Press <strong>Enter</strong> or click <strong>Log</strong> to save. The contact appears in the activation log table below.</p>
 <p>Use <strong>Alt+R</strong> to reload the last contact into the form (handy for correcting mistakes).</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="multi-park-activations"><a href="#multi-park-activations" class="header">Multi-Park Activations</a></h1>
+<h1 id="multi-park-activations"><a class="header" href="#multi-park-activations">Multi-Park Activations</a></h1>
 <p>If you’re activating multiple parks from the same location (two-fer, three-fer), press <strong>Ctrl+M</strong> to open the Multi-Park dialog. Add additional park references and all your contacts will be logged for each park.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="exporting-adif"><a href="#exporting-adif" class="header">Exporting ADIF</a></h1>
+<h1 id="exporting-adif"><a class="header" href="#exporting-adif">Exporting ADIF</a></h1>
 <p>Click <strong>Export ADIF</strong> in the activator toolbar to save your activation log as an ADIF file for upload to pota.app or sotadata.org.uk. For multi-park activations, you can export per-park or combined.</p>
 <p>The activator toolbar also has buttons for:</p>
 <ul>
@@ -321,21 +294,21 @@ multiple products to document and it seemed to be too much for this project.  We
 <li><strong>Logbook</strong> (F2) — open the pop-out QSO logbook</li>
 </ul>
 <hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="spot-sources"><a href="#spot-sources" class="header">Spot Sources</a></h1>
+<h1 id="spot-sources"><a class="header" href="#spot-sources">Spot Sources</a></h1>
 <p>Toggle sources on and off from the <strong>Spots dropdown</strong> in the toolbar (the funnel icon) or in Settings → Spot Sources.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="pota"><a href="#pota" class="header">POTA</a></h1>
+<h1 id="pota"><a class="header" href="#pota">POTA</a></h1>
 <p>Parks on the Air spots from the <a href="https://api.pota.app">POTA API</a>. Refreshed automatically (default every 60 seconds, configurable). Green markers on the map.</p>
 <p><strong>Parks Worked:</strong> Import your parks worked CSV from pota.app (Settings → Spot Sources → POTA → Import CSV). Spots for parks you’ve already worked show no “NEW” badge, and you can filter them out with “Hide worked parks” in the Spots dropdown.</p>
 <p><strong>Stats overlay:</strong> When parks data is loaded, click the Stats button in the status bar to see your Parks Worked count, Total QSOs, unique locations, and how many new-to-you parks are on the air right now.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="sota"><a href="#sota" class="header">SOTA</a></h1>
+<h1 id="sota"><a class="header" href="#sota">SOTA</a></h1>
 <p>Summits on the Air spots from the SOTA API. Orange markers on the map positioned at summit coordinates.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="wwff--llota"><a href="#wwff--llota" class="header">WWFF &amp; LLOTA</a></h1>
+<h1 id="wwff--llota"><a class="header" href="#wwff--llota">WWFF &amp; LLOTA</a></h1>
 <p>World Wide Flora &amp; Fauna and Lighthouses on the Air spots. These are additional park/award programs that pull from their respective APIs.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="dx-cluster"><a href="#dx-cluster" class="header">DX Cluster</a></h1>
+<h1 id="dx-cluster"><a class="header" href="#dx-cluster">DX Cluster</a></h1>
 <p>Live DX spots streamed via telnet from DX cluster nodes. POTACAT supports up to <strong>3 simultaneous cluster connections</strong>.</p>
 <p><strong>Setup:</strong></p>
 <ol>
@@ -348,7 +321,7 @@ multiple products to document and it seemed to be too much for this project.  We
 <p><strong>DX Command Bar:</strong> When DX Cluster is enabled, a command bar appears below the table. Use it to self-spot or spot other stations on the cluster. Enter a callsign, frequency, and optional comment, then click Send.</p>
 <p><strong>Spotting on the cluster:</strong> The Log dialog includes a “Spot on DX Cluster” checkbox for non-park contacts. Press <strong>Ctrl+R</strong> for quick re-spotting with template variables.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="reverse-beacon-network-rbn"><a href="#reverse-beacon-network-rbn" class="header">Reverse Beacon Network (RBN)</a></h1>
+<h1 id="reverse-beacon-network-rbn"><a class="header" href="#reverse-beacon-network-rbn">Reverse Beacon Network (RBN)</a></h1>
 <p>The RBN shows where your CQ calls (and watchlist callsigns) are being heard by the worldwide skimmer network.</p>
 <p><strong>Setup:</strong></p>
 <ol>
@@ -357,11 +330,11 @@ multiple products to document and it seemed to be too much for this project.  We
 </ol>
 <p>A dedicated <strong>RBN view</strong> appears in the view toolbar. It shows a map with band-colored circle markers (sized by SNR), a spot table, and a dynamic legend. Filters for band and max age are available at the top.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="freedv--pskreporter"><a href="#freedv--pskreporter" class="header">FreeDV / PSKReporter</a></h1>
+<h1 id="freedv--pskreporter"><a class="header" href="#freedv--pskreporter">FreeDV / PSKReporter</a></h1>
 <p>FreeDV spots from PSKReporter. Polls every 5 minutes (with automatic backoff on server errors). Coral-colored spots in the table and map.</p>
 <p>Hover over the FreeDV checkbox in the Spots dropdown to see a countdown to the next poll.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="wsjt-x"><a href="#wsjt-x" class="header">WSJT-X</a></h1>
+<h1 id="wsjt-x"><a class="header" href="#wsjt-x">WSJT-X</a></h1>
 <p>POTACAT listens for WSJT-X UDP messages (default port 2237) and cross-references decoded callsigns against active POTA spots.</p>
 <p><strong>Features:</strong></p>
 <ul>
@@ -372,39 +345,13 @@ multiple products to document and it seemed to be too much for this project.  We
 </ul>
 <p>Enable WSJT-X in Settings → Spot Sources. Set the UDP port to match your WSJT-X configuration.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="dx-expeditions"><a href="#dx-expeditions" class="header">DX Expeditions</a></h1>
+<h1 id="dx-expeditions"><a class="header" href="#dx-expeditions">DX Expeditions</a></h1>
 <p>POTACAT checks the <a href="https://clublog.org">Club Log</a> DX expedition database and marks active expeditions with a <strong>DXP</strong> badge. DX expedition spots are pinned to the top of the table and shown with a red/gold marker on the map.</p>
 <hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="filters"><a href="#filters" class="header">Filters</a></h1>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="band--mode"><a href="#band--mode" class="header">Band &amp; Mode</a></h1>
-<p>Use the <strong>Band</strong> and <strong>Mode</strong> dropdowns in the toolbar to filter spots:</p>
-<ul>
-<li><strong>Bands:</strong> All, 160m, 80m, 60m, 40m, 30m, 20m, 17m, 15m, 12m, 10m, 6m</li>
-<li><strong>Modes:</strong> All, CW, SSB, FT8, FT4, FM, RTTY, FreeDV</li>
-</ul>
-<p>The default view shows 20m CW. These filters apply to both the table and map views.</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="region"><a href="#region" class="header">Region</a></h1>
-<p>Filter spots by continent using the <strong>Region</strong> dropdown: All, AF (Africa), AS (Asia), EU (Europe), NA (North America), OC (Oceania), SA (South America).</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="hide-worked-parks"><a href="#hide-worked-parks" class="header">Hide Worked Parks</a></h1>
-<p>Available in the Spots dropdown when you have parks worked data loaded. Hides spots for parks you’ve already activated or hunted.</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="hide-out-of-privilege"><a href="#hide-out-of-privilege" class="header">Hide Out-of-Privilege</a></h1>
-<p>Hides spots on frequencies outside your license privileges. Set your license class in Settings → Station (or the welcome screen) to enable this.</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="watchlist"><a href="#watchlist" class="header">Watchlist</a></h1>
-<p>Enter comma-separated callsigns in Settings → Spot Filters → Watchlist. Spots matching these callsigns show a star icon in the table.</p>
-<p><strong>Notifications:</strong> Enable pop-up and/or sound notifications for watchlist matches in Settings → Spot Filters. Configure auto-dismiss duration.</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="max-spot-age"><a href="#max-spot-age" class="header">Max Spot Age</a></h1>
-<p>Set in Settings → Spot Filters. Spots older than this value (in minutes) are hidden. Set to 0 for no limit.</p>
-<hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="radio-setup"><a href="#radio-setup" class="header">Radio Setup</a></h1>
+<h1 id="radio-setup"><a class="header" href="#radio-setup">Radio Setup</a></h1>
 <p>POTACAT supports five connection methods. Open Settings and click <strong>Add Rig</strong> to configure your radio.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="flexradio-smartsdr"><a href="#flexradio-smartsdr" class="header">FlexRadio (SmartSDR)</a></h1>
+<h1 id="flexradio-smartsdr"><a class="header" href="#flexradio-smartsdr">FlexRadio (SmartSDR)</a></h1>
 <p><strong>Best for:</strong> FlexRadio 6000/8000 series running SmartSDR.</p>
 <p>POTACAT connects to SmartSDR’s built-in CAT server over TCP. No additional software or cables needed.</p>
 <ol>
@@ -428,7 +375,7 @@ multiple products to document and it seemed to be too much for this project.  We
 </div>
 <p>If SmartSDR is on a different computer, use <strong>IP Radio (TCP CAT)</strong> instead with the Flex’s IP address.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="ip-radio-tcp-cat"><a href="#ip-radio-tcp-cat" class="header">IP Radio (TCP CAT)</a></h1>
+<h1 id="ip-radio-tcp-cat"><a class="header" href="#ip-radio-tcp-cat">IP Radio (TCP CAT)</a></h1>
 <p><strong>Best for:</strong> FlexRadio on a remote PC, Elecraft K4, or any radio with a TCP-based Kenwood CAT interface.</p>
 <ol>
 <li>Add a new rig → select <strong>IP Radio (TCP CAT)</strong></li>
@@ -436,7 +383,7 @@ multiple products to document and it seemed to be too much for this project.  We
 <li>Save</li>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="serial-cat-kenwood"><a href="#serial-cat-kenwood" class="header">Serial CAT (Kenwood)</a></h1>
+<h1 id="serial-cat-kenwood"><a class="header" href="#serial-cat-kenwood">Serial CAT (Kenwood)</a></h1>
 <p><strong>Best for:</strong> QRPLabs QMX/QDX, Kenwood, Elecraft, Yaesu (via FA/MD commands), and any radio that speaks Kenwood protocol over USB serial.</p>
 <ol>
 <li>Add a new rig → select <strong>Serial CAT (Kenwood)</strong></li>
@@ -449,7 +396,7 @@ multiple products to document and it seemed to be too much for this project.  We
 <p>POTACAT sends only <code>FA</code> (frequency) and <code>MD</code> (mode) commands. Any radio that responds to <code>FA;</code> with a frequency will work.</p>
 <p><strong>Yaesu radios</strong> also support these commands — POTACAT auto-detects 9-digit (Yaesu) vs 11-digit (Kenwood) FA format from the radio’s response.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="other-rig-hamlib"><a href="#other-rig-hamlib" class="header">Other Rig (Hamlib)</a></h1>
+<h1 id="other-rig-hamlib"><a class="header" href="#other-rig-hamlib">Other Rig (Hamlib)</a></h1>
 <p><strong>Best for:</strong> Icom, Yaesu, and radios that don’t speak Kenwood protocol.</p>
 <p>POTACAT bundles <strong>Hamlib 4.6.5</strong> (rigctld) — no separate installation needed. Supports 200+ radio models.</p>
 <ol>
@@ -461,7 +408,7 @@ multiple products to document and it seemed to be too much for this project.  We
 </ol>
 <p>POTACAT spawns a <code>rigctld</code> process, connects via TCP, and translates commands to your radio’s native protocol.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="rigctld-network"><a href="#rigctld-network" class="header">rigctld Network</a></h1>
+<h1 id="rigctld-network"><a class="header" href="#rigctld-network">rigctld Network</a></h1>
 <p><strong>Best for:</strong> Connecting to an existing rigctld instance running on another machine or managed by other software.</p>
 <ol>
 <li>Add a new rig → select <strong>rigctld Network</strong></li>
@@ -469,10 +416,10 @@ multiple products to document and it seemed to be too much for this project.  We
 <li>Save</li>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="my-rigs"><a href="#my-rigs" class="header">My Rigs</a></h1>
+<h1 id="my-rigs"><a class="header" href="#my-rigs">My Rigs</a></h1>
 <p>POTACAT supports multiple saved rig profiles. Each profile stores a name and connection settings. Switch between rigs by clicking the CAT status pill in the status bar and selecting from the rig list.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="win4yaesu-setup"><a href="#win4yaesu-setup" class="header">Win4Yaesu Setup</a></h1>
+<h1 id="win4yaesu-setup"><a class="header" href="#win4yaesu-setup">Win4Yaesu Setup</a></h1>
 <p>If you use Win4Yaesu Suite, both programs need access to the radio’s serial port. The solution is <strong>COM0COM</strong> (free virtual COM port driver):</p>
 <ol>
 <li>Install COM0COM (signed 64-bit version)</li>
@@ -484,7 +431,7 @@ multiple products to document and it seemed to be too much for this project.  We
 </code></pre>
 <p>Win4Yaesu caches radio state, so POTACAT’s polling doesn’t add load on the radio. Multiple programs can run simultaneously on separate AUX/CAT ports.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="tested-radios"><a href="#tested-radios" class="header">Tested Radios</a></h1>
+<h1 id="tested-radios"><a class="header" href="#tested-radios">Tested Radios</a></h1>
 <div class="table-wrapper">
 <table>
 <thead>
@@ -504,11 +451,11 @@ multiple products to document and it seemed to be too much for this project.  We
 </div>
 <p>If your rig isn’t listed, try <strong>Serial CAT (Kenwood)</strong> first — many radios support FA/MD commands — then fall back to <strong>Hamlib</strong>.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="smartsdr-panadapter-spots"><a href="#smartsdr-panadapter-spots" class="header">SmartSDR Panadapter Spots</a></h1>
+<h1 id="smartsdr-panadapter-spots"><a class="header" href="#smartsdr-panadapter-spots">SmartSDR Panadapter Spots</a></h1>
 <p>For FlexRadio users: enable <strong>Push spots to SmartSDR panadapter</strong> in Settings → Display. POTACAT connects to the FlexRadio API on port 4992 and displays color-coded spot markers directly on your SmartSDR panadapter.</p>
 <p>Configure which sources appear (POTA, SOTA, DX Cluster, RBN, etc.) and set a max spot age.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="tci-panadapter-spots"><a href="#tci-panadapter-spots" class="header">TCI Panadapter Spots</a></h1>
+<h1 id="tci-panadapter-spots"><a class="header" href="#tci-panadapter-spots">TCI Panadapter Spots</a></h1>
 <p>For Thetis (ANAN/Hermes-Lite 2), ExpertSDR3 (SunSDR), and other TCI-compatible SDR software: enable <strong>Push to Thetis/TCI panadapter</strong> in Settings → Display.</p>
 <p>POTACAT connects via WebSocket and sends color-coded spot markers to your panadapter. Configure:</p>
 <ul>
@@ -517,96 +464,7 @@ multiple products to document and it seemed to be too much for this project.  We
 <li>Max spot age</li>
 </ul>
 <hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="qso-logging"><a href="#qso-logging" class="header">QSO Logging</a></h1>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="log-dialog"><a href="#log-dialog" class="header">Log Dialog</a></h1>
-<p>Click the <strong>Log</strong> button on any spot row, map popup, or use <strong>Ctrl+L</strong> for an unspotted QSO. The dialog pre-fills:</p>
-<ul>
-<li>Callsign, frequency, mode, band (from the spot)</li>
-<li>Operator name (from QRZ lookup)</li>
-<li>RST Sent and Received (split-digit boxes with auto-advance)</li>
-<li>TX Power (from your default in Settings)</li>
-<li>Park/summit reference</li>
-<li>“Spot on DX Cluster” checkbox (for non-park contacts)</li>
-</ul>
-<p>Press <strong>Enter</strong> to save.</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="quick-log"><a href="#quick-log" class="header">Quick Log</a></h1>
-<p><strong>Ctrl+L</strong> opens a log dialog for contacts that aren’t in the spot table — useful for logging a QSO you found by tuning around.</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="adif-file"><a href="#adif-file" class="header">ADIF File</a></h1>
-<p>QSOs are saved to a local ADIF file. Set the file path in Settings → Logging. Each QSO is appended as a standard ADIF record with fields including CALL, FREQ, MODE, BAND, RST_SENT, RST_RCVD, QSO_DATE, TIME_ON, OPERATOR, TX_PWR, SIG_INFO (park ref), and QRZ-derived fields (NAME, STATE, CNTY, GRIDSQUARE, COUNTRY).</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="logbook-forwarding"><a href="#logbook-forwarding" class="header">Logbook Forwarding</a></h1>
-<p>POTACAT can forward QSOs in real-time to external logging software:</p>
-<div class="table-wrapper">
-<table>
-<thead>
-<tr><th>Logbook</th><th>Protocol</th><th style="text-align: center">Default Port</th></tr>
-</thead>
-<tbody>
-<tr><td>Log4OM 2</td><td>UDP ADIF</td><td style="text-align: center">2237</td></tr>
-<tr><td>N1MM Logger+</td><td>UDP ADIF</td><td style="text-align: center">2333</td></tr>
-<tr><td>N3FJP</td><td>TCP XML-wrapped ADIF</td><td style="text-align: center">1100</td></tr>
-<tr><td>Ham Radio Deluxe</td><td>UDP ADIF</td><td style="text-align: center">2333</td></tr>
-<tr><td>DXKeeper</td><td>TCP <code>externallog</code></td><td style="text-align: center">52001</td></tr>
-</tbody>
-</table>
-</div>
-<p>Enable in Settings → Logging → Send to Logbook. Select your logger and configure the host/port.</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="pop-out-qso-logbook"><a href="#pop-out-qso-logbook" class="header">Pop-out QSO Logbook</a></h1>
-<p>Press <strong>F2</strong> or click the <strong>Logbook</strong> button in the toolbar to open a detachable logbook window showing all your logged QSOs.</p>
-<p>Features:</p>
-<ul>
-<li><strong>Search</strong> across all fields</li>
-<li><strong>Sortable columns</strong> (click headers)</li>
-<li><strong>Inline edit</strong> — click any cell to modify</li>
-<li><strong>Delete</strong> — two-click delete (click once to confirm, click again to remove)</li>
-<li><strong>Export ADIF</strong> — save your entire log</li>
-<li><strong>Real-time updates</strong> — new QSOs appear instantly via toast notifications</li>
-<li><strong>Stats footer</strong> — total QSO count and session summary</li>
-</ul>
-<hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="tracking--enrichment"><a href="#tracking--enrichment" class="header">Tracking &amp; Enrichment</a></h1>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="parks-worked"><a href="#parks-worked" class="header">Parks Worked</a></h1>
-<p>Import your POTA parks worked CSV (download from your pota.app profile) in Settings → Spot Sources → POTA.</p>
-<p>Once loaded:</p>
-<ul>
-<li>New (unworked) parks show a <strong>green border</strong> and <strong>“NEW” badge</strong> on table rows</li>
-<li>The <strong>Hide worked parks</strong> filter removes already-worked parks from the table</li>
-<li>The <strong>Stats overlay</strong> (status bar button) shows your progress</li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="dxcc-tracker"><a href="#dxcc-tracker" class="header">DXCC Tracker</a></h1>
-<p>Enable the DXCC Tracker in the Spots dropdown → Events &amp; Awards → check <strong>DXCC Tracker</strong>, then click <strong>Board</strong>.</p>
-<p>The tracker shows a band × entity matrix of your worked DXCC entities. It reads from your POTACAT logfile (no separate ADIF import needed).</p>
-<p>Features:</p>
-<ul>
-<li>Band and mode filter dropdowns</li>
-<li>Entity count and DXCC Challenge score (total band-entity slots)</li>
-<li><strong>“DXCC!”</strong> badge when you reach 100+ entities</li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="qrz-lookup"><a href="#qrz-lookup" class="header">QRZ Lookup</a></h1>
-<p>If you enter your QRZ credentials in Settings → Station, POTACAT enriches spots with operator names, grid squares, state, county, and country from QRZ.</p>
-<ul>
-<li><strong>Hover tooltip</strong> — hover over a callsign in the table to see the operator’s name</li>
-<li><strong>Nickname preference</strong> — POTACAT uses the QRZ nickname field when available (e.g. “Bob” instead of “Robert”)</li>
-<li><strong>Log dialog</strong> — the operator name is shown in a read-only field</li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="dx-expedition-tracking"><a href="#dx-expedition-tracking" class="header">DX Expedition Tracking</a></h1>
-<p>POTACAT checks Club Log for active DX expeditions. Matched spots receive:</p>
-<ul>
-<li>A <strong>DXP</strong> source badge</li>
-<li><strong>Pinned-to-top</strong> positioning in the table</li>
-<li>A <strong>red/gold map marker</strong></li>
-</ul>
-<p>Active events are shown in the Spots dropdown → Events &amp; Awards section with a track/progress button.</p>
-<hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="cw-keyer"><a href="#cw-keyer" class="header">CW Keyer</a></h1>
+<h1 id="cw-keyer"><a class="header" href="#cw-keyer">CW Keyer</a></h1>
 <p>POTACAT includes a built-in CW keyer for FlexRadio users with a MIDI paddle (e.g. HaliKey).</p>
 <p><strong>Setup:</strong></p>
 <ol>
@@ -620,7 +478,7 @@ multiple products to document and it seemed to be too much for this project.  We
 <p><strong>How it works:</strong> POTACAT reads MIDI paddle events via the Web MIDI API, runs an Iambic keyer state machine, and sends <code>cw key</code> commands directly to your FlexRadio via the SmartSDR TCP API. This preserves your exact fist timing — no buffering.</p>
 <p><strong>CW status:</strong> The CW pill in the status bar shows keyer state. Click it for a popover with volume and WPM controls. The sidetone requires one click anywhere in the app to unlock (browser audio policy).</p>
 <hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="scan-mode"><a href="#scan-mode" class="header">Scan Mode</a></h1>
+<h1 id="scan-mode"><a class="header" href="#scan-mode">Scan Mode</a></h1>
 <p>Click the <strong>Scan</strong> button in the toolbar or press <strong>Space</strong> to start scanning.</p>
 <p>Scan automatically tunes through all visible (filtered) spots, dwelling on each for a configurable time (Settings → Tuning → Scan Dwell Time, default 7 seconds).</p>
 <ul>
@@ -629,7 +487,7 @@ multiple products to document and it seemed to be too much for this project.  We
 <li>Press <strong>Space</strong> again to stop scanning</li>
 </ul>
 <hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="keyboard-shortcuts"><a href="#keyboard-shortcuts" class="header">Keyboard Shortcuts</a></h1>
+<h1 id="keyboard-shortcuts"><a class="header" href="#keyboard-shortcuts">Keyboard Shortcuts</a></h1>
 <p>Press <strong>F1</strong> to see this list in the app.</p>
 <div class="table-wrapper">
 <table>
@@ -656,12 +514,10 @@ multiple products to document and it seemed to be too much for this project.  We
 </table>
 </div>
 <hr><div style="break-before: page; page-break-before: always;"></div>
-<h1 id="settings-reference"><a href="#settings-reference" class="header">Settings Reference</a></h1>
+<h1 id="settings-reference"><a class="header" href="#settings-reference">Settings Reference</a></h1>
 <p>Open Settings from the toolbar dropdown → “Open Settings…” or from the welcome screen.</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="troubleshooting"><a href="#troubleshooting" class="header">Troubleshooting</a></h1>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="community--support"><a href="#community--support" class="header">Community &amp; Support</a></h1>
+<h1 id="community--support"><a class="header" href="#community--support">Community &amp; Support</a></h1>
 <p><strong>Website:</strong> <a href="https://potacat.com">potacat.com</a></p>
 <p><strong>Discord:</strong> Join the community at <a href="https://discord.gg/JjdKSshej">discord.gg/JjdKSshej</a> — get help, share your setup, request features, and chat with other POTACAT users.</p>
 <p><strong>Support development:</strong> If POTACAT helps you chase parks, consider supporting the project at <a href="https://buymeacoffee.com/potacat">buymeacoffee.com/potacat</a>.</p>

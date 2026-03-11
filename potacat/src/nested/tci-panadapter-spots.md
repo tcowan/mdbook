@@ -1,3 +1,4 @@
+# TCI Panadapter Spots
 
 For Thetis (ANAN/Hermes-Lite 2), ExpertSDR3 (SunSDR), and other TCI-compatible SDR software: enable **Push to Thetis/TCI panadapter** in Settings → Display.
 

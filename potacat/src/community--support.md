@@ -1,3 +1,4 @@
+# Community & Support
 
 **Website:** [potacat.com](https://potacat.com)
 

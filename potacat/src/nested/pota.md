@@ -1,3 +1,4 @@
+# POTA
 
 Parks on the Air spots from the [POTA API](https://api.pota.app). Refreshed automatically (default every 60 seconds, configurable). Green markers on the map.
 

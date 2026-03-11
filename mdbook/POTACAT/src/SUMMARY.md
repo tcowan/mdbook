@@ -1,6 +1,6 @@
 # Summary
 [Introduction](README.md)
-- [Getting Started](getting-started.md)
+# Getting Started
     - [Installation](nested/installation.md)
     - [First Launch](nested/first-launch.md)
 - [Quick Start](quick-start.md)
@@ -23,7 +23,7 @@
     - [FreeDV / PSKReporter](nested/freedv--pskreporter.md)
     - [WSJT-X](nested/wsjt-x.md)
     - [DX Expeditions](nested/dx-expeditions.md)
-- [Filters](filters.md)
+# Filters
     - [Band & Mode](nested/band--mode.md)
     - [Region](nested/region.md)
     - [Hide Worked Parks](nested/hide-worked-parks.md)
@@ -41,13 +41,13 @@
     - [Tested Radios](nested/tested-radios.md)
     - [SmartSDR Panadapter Spots](nested/smartsdr-panadapter-spots.md)
     - [TCI Panadapter Spots](nested/tci-panadapter-spots.md)
-- [QSO Logging](qso-logging.md)
+# QSO Logging
     - [Log Dialog](nested/log-dialog.md)
     - [Quick Log](nested/quick-log.md)
     - [ADIF File](nested/adif-file.md)
     - [Logbook Forwarding](nested/logbook-forwarding.md)
     - [Pop-out QSO Logbook](nested/pop-out-qso-logbook.md)
-- [Tracking & Enrichment](tracking--enrichment.md)
+# Tracking & Enrichment
     - [Parks Worked](nested/parks-worked.md)
     - [DXCC Tracker](nested/dxcc-tracker.md)
     - [QRZ Lookup](nested/qrz-lookup.md)
@@ -56,5 +56,5 @@
 - [Scan Mode](scan-mode.md)
 - [Keyboard Shortcuts](keyboard-shortcuts.md)
 - [Settings Reference](settings-reference.md)
-- [Troubleshooting](troubleshooting.md)
+# Troubleshooting
 - [Community & Support](community--support.md)

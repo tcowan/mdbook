@@ -1,3 +1,4 @@
+# DX Expedition Tracking
 
 POTACAT checks Club Log for active DX expeditions. Matched spots receive:
 - A **DXP** source badge

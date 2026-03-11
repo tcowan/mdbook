@@ -1,3 +1,4 @@
+# Logging Contacts
 
 The quick-log form at the top has:
 - **Callsign** — type the hunter's callsign

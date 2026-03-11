@@ -1,3 +1,4 @@
+# Band & Mode
 
 Use the **Band** and **Mode** dropdowns in the toolbar to filter spots:
 

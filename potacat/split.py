@@ -71,20 +71,30 @@ while guideline[0:18] != '## Getting Started':
     #     print('EOF on user guide')
     #     break
     linecount = linecount + 1
-    print(str(linecount)+' '+guideline)
+#   print(str(linecount)+' '+guideline)
     match = re.search(level1, guideline)
 #   if level 1 write the summary line with file name
     if match:
         title = match.group(1)
         filename = match.group(2)+'.md'
-        print('found a match at level 1')
-        summary.write(f'''- [{title}]({filename})\n''')
-# open the .md file and create an empty file
-        file = open(os.path.join('src', filename),'w')
+#       print('found a match at level 1')
         fragment = findSection(guidelines, f'## {title}\n')
         if fragment is None:
             print(f'cannot find ## {title}. {filename} will be empty')
             continue
+# if fragment consists of empty lines, write only a H1 header to summary.md
+#   else write the fragment
+        is_empty = True
+        for line in fragment:
+            if not line.isspace():
+                is_empty = False
+        if is_empty:
+            summary.write(f'''# {title}\n''')
+        else:
+            summary.write(f'''- [{title}]({filename})\n''')
+# open the .md file for output
+        file = open(os.path.join('src', filename),'w')
+        file.write(f'''# {title}\n''')
         for line in fragment:
             file.write(line)
         file.write('\n')
@@ -95,7 +105,7 @@ while guideline[0:18] != '## Getting Started':
     if match2:
         title = match2.group(1)
         filename = match2.group(2)+'.md'
-        print('found a match at level 2')
+#   print('found a match at level 2')
         summary.write(f'''    - [{title}](nested/{filename})\n''')
         # open the .md file and create an empty file
         file = open(os.path.join('src/nested', filename),'w')
@@ -103,6 +113,7 @@ while guideline[0:18] != '## Getting Started':
         if fragment is None:
             print(f'cannot find ### {title}. {filename} will be empty')
             continue
+        file.write(f'''# {title}\n''')
         for line in fragment:
             file.write(line)
         file.write('\n')

@@ -1,3 +1,4 @@
+# rigctld Network
 
 **Best for:** Connecting to an existing rigctld instance running on another machine or managed by other software.
 

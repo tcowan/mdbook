@@ -1,3 +1,4 @@
+# Spot Table
 
 The main table shows one row per spot with these columns (right-click any column header to show/hide columns):
 

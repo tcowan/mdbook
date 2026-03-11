@@ -1,3 +1,4 @@
+# Map View
 
 Toggle between Table and Map using the view buttons in the toolbar (or press **S** for split view).
 

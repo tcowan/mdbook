@@ -1,3 +1,4 @@
+# Installation
 
 1. Download the latest installer from the [GitHub Releases](https://github.com/Waffleslop/POTACAT/releases) page
 2. Run the installer (`.exe` for Windows, `.dmg` for macOS)

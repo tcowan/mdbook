@@ -1,3 +1,4 @@
+# First Launch
 
 On first launch, POTACAT shows a **Welcome Screen** to get you up and running:
 

@@ -1,3 +1,4 @@
+# Serial CAT (Kenwood)
 
 **Best for:** QRPLabs QMX/QDX, Kenwood, Elecraft, Yaesu (via FA/MD commands), and any radio that speaks Kenwood protocol over USB serial.
 

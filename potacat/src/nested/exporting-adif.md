@@ -1,3 +1,4 @@
+# Exporting ADIF
 
 Click **Export ADIF** in the activator toolbar to save your activation log as an ADIF file for upload to pota.app or sotadata.org.uk. For multi-park activations, you can export per-park or combined.
 

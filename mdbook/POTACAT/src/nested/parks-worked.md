@@ -1,3 +1,4 @@
+# Parks Worked
 
 Import your POTA parks worked CSV (download from your pota.app profile) in Settings → Spot Sources → POTA.
 

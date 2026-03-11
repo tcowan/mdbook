@@ -1,3 +1,4 @@
+# Scan Mode
 
 Click the **Scan** button in the toolbar or press **Space** to start scanning.
 
